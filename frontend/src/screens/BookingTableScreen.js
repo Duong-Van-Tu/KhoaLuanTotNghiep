@@ -35,23 +35,24 @@ const checkPhoneNumber = (phoneNumber) => {
   return validPhoneNumber.test(phoneNumber);
 }	
 const checkDay = (date) => {
-  if(date === ""){
-    return "";
-  } 
-const splitTime = date.split('-');
-      const year = parseInt(splitTime[0]);
-      const month = parseInt(splitTime[1]);
-      const day = parseInt(splitTime[2]);
-      const dayCurrent = new Date().getDate();
-      const monthCurrent = new Date().getMonth();
-      const yearCurrent = new Date().getFullYear();
-  return year >= yearCurrent && month >= monthCurrent && day >= dayCurrent;
+  if(typeof(date) === "string" && date !== ""){
+    const splitTime = date.split('-');
+    const year = parseInt(splitTime[0]);
+    const month = parseInt(splitTime[1]);
+    const day = parseInt(splitTime[2]);
+    const dayCurrent = new Date().getDate();
+    const monthCurrent = new Date().getMonth();
+    const yearCurrent = new Date().getFullYear();
+return year >= yearCurrent && month >= monthCurrent && day >= dayCurrent;
+  }
 }
 const checkHour = (hour) =>{
-const splitHour = hour.split(' ');
-const h = parseInt(splitHour[0]);
-const hourCurrent = new Date().getHours();
-return h >= hourCurrent;
+  if(typeof(hour) === "string" && hour !== "" ){
+    const splitHour = hour.split(' ');
+    const h = parseInt(splitHour[0]);
+    const hourCurrent = new Date().getHours();
+    return h >= hourCurrent;
+  }
 }
 
   const dispatch = useDispatch();
