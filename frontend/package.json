@@ -1,0 +1,64 @@
+{
+  "name": "frontend",
+  "proxy": "http://127.0.0.1:5000",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@react-google-maps/api": "^1.13.0",
+    "@syncfusion/ej2-react-calendars": "^19.1.64",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "animejs": "^3.2.1",
+    "antd": "^4.16.1",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "here-maps-react": "^1.1.0",
+    "jquery": "^3.6.0",
+    "mdbreact": "^5.0.2",
+    "node-sass": "^4.0.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^0.32.4",
+    "react-calendar": "^3.4.0",
+    "react-dom": "^16.13.1",
+    "react-geocode": "^0.2.3",
+    "react-google-charts": "^3.0.15",
+    "react-google-maps": "^9.4.5",
+    "react-paypal-button-v2": "^2.6.2",
+    "react-player": "^2.9.0",
+    "react-redux": "^7.2.4",
+    "react-responsive-carousel": "^3.2.18",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-toastify": "^7.0.4",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^4.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}

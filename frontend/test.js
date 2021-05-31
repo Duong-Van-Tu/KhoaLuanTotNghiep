@@ -1,0 +1,1 @@
+console.log(new Date().getFullYear() + "-" + new Date().getMonth() + "-" + new Date().getDate());

@@ -1,0 +1,74 @@
+.chatbox {
+  /* background-image: url("https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80"); */
+  height: 280px;
+  color: #000000;
+  position: fixed;
+  right: 154rem;
+  bottom: 10rem;
+  width: 19%;
+  z-index: 2;
+}
+.chatbox ul {
+  overflow: scroll;
+  max-height: 20rem;
+}
+.chatbox li {
+  margin-bottom: 1rem;
+}
+.chatbox input {
+  width: calc(134%);
+  text-align: center;
+}
+.form-chat-box {
+  background: linear-gradient(40deg, #2096ff, #05ffa3) !important;
+  height: 380px;
+  width: 400px;
+}
+.header-chat-box {
+  width: 300px;
+  margin-bottom: 30px;
+  /* background-color: aqua; */
+}
+.form-chat-box > ul {
+  font-size: 14px;
+  color: white;
+}
+.button-close {
+  background: linear-gradient(40deg, #e40707, #e09c08);
+  width: 13%;
+  font-size: 13px;
+  position: absolute;
+  right: -46px;
+  top: 0;
+  float: right;
+  right: -120px;
+}
+
+.message-input {
+  width: 300px;
+}
+
+.submit-chat-box {
+  margin: 2rem 0.1rem;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  border: none;
+  background: linear-gradient(60deg, rgb(24, 245, 3), rgb(8, 245, 245));
+}
+
+.submit-chat-box:hover {
+  border: none;
+  transform: rotateX(-5deg);
+  background: linear-gradient(60deg, rgb(5, 204, 240), rgb(3, 59, 245));
+  transition: 0.3s;
+}
+
+@media only screen and (max-width : 1440px){
+  .chatbox {
+    left: 0;
+  }
+  .button-close{
+    right: -20px;
+  }
+}

@@ -1,0 +1,43 @@
+.item-price-style {
+  font-size: 24px;
+}
+.btn-delete {
+  font-size: 16px;
+  background: linear-gradient(40deg, rgb(251, 75, 75), rgb(238, 137, 91));
+}
+.btn-delete:hover {
+  background: linear-gradient(40deg, rgb(247, 26, 26), rgb(250, 105, 38));
+  outline: none;
+  border: none;
+}
+.content-price{
+  position: absolute;
+  right: -212px;
+  /* justify-items: center; */
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1200px) {
+  .link-transform{
+    margin-left: -285% !important;
+  }
+
+    .card-table-res{
+      width: 29% !important;
+      
+    }
+    .row-responsive {
+      display: inline-flex !important;
+    }
+    .pagination{
+      position: absolute;
+      left: 50%;
+    }
+   
+    .table-responsive{
+      position: absolute !important;
+      right: 0 !important;
+      width: 30% !important;
+    }
+  
+}

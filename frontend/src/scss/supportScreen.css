@@ -1,0 +1,83 @@
+.full-container {
+  margin-top: 1rem;
+  font-size: 16px;
+  margin-left: 2rem;
+}
+.support-messages {
+  height: 90%;
+}
+.icons-chat {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 20px;
+  font-size: 24px;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  /* border: rgb(156, 154, 154); */
+
+  background: rgb(216, 214, 214);
+}
+.icons-chat:hover {
+  background: rgb(182, 181, 181);
+}
+.chat-with-user {
+  margin-top: -10px;
+  height: 46px;
+  background: linear-gradient(40deg, rgb(178, 251, 129), rgb(73, 228, 255));
+}
+
+.content-inbox {
+  /* float: left; */
+}
+
+.support-messages {
+  background-image: url(./images/Live-Wave-Background.svg);
+}
+.text-chat-box {
+  width: 100%;
+  height: 200px;
+}
+
+.text-chat-box > form {
+  /* width: 90%;
+  float: left; */
+}
+.content-chat-box {
+  /* float: left; */
+  position: absolute;
+    width: 700px;
+    margin-left: -10rem;
+    border-radius: 30px;
+    padding-bottom: 2rem;
+    bottom: 24px;
+}
+.content-chat-box:hover {
+  border: none;
+  outline: none;
+}
+.content-chat-box:focus {
+  border: none;
+  outline: none;
+}
+
+.profile-user {
+  background-color: aliceblue;
+  width: 100%;
+  height: 90%;
+}
+.search-inbox {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+}
+.search-inbox:focus {
+  outline: none;
+}
+
+@media only screen and (max-width : 1440px) {
+  .content-chat-box {
+    width: 500px;
+  }
+}

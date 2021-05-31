@@ -1,0 +1,40 @@
+{
+  "name": "khoaluantotnghiep",
+  "version": "1.0.0",
+  "description": "Khoa Luan Tot Nghiep",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NghiaHoang303/DoAnNew1.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MongoDB",
+    "React-Redux"
+  ],
+  "author": "DuongVanTu_HoangTrungNghia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NghiaHoang303/DoAnNew1/issues"
+  },
+  "homepage": "https://github.com/NghiaHoang303/DoAnNew1#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.12.12",
+    "multer": "^1.4.2",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

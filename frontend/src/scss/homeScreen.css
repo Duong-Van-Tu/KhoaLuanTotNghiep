@@ -1,0 +1,800 @@
+/* @font-face {
+  font-family: "3dumbregular";
+  src: url("../../../../3Dumb-webfont.woff2") format("woff2"),
+    url("3Dumb-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+div #header .header-general {
+  background-image: url("./images/background-9.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 850px;
+
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
+}
+div #header .header-general:hover {
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
+}
+
+/* start common */
+.mt--8 {
+  margin-top: -8rem;
+}
+.icon-common {
+  width: 350px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 3rem;
+  letter-spacing: 4rem;
+}
+
+/* end common */
+
+#header .header-general .header-left {
+  width: 50%;
+  float: left;
+  position: absolute;
+}
+.symbol-restaurant {
+  border-radius: 50%;
+}
+
+#header .header-general .header-right {
+  width: 50%;
+  float: right;
+}
+.arrow-right {
+  width: 0px;
+  height: 0px;
+  border-bottom: 230px solid transparent;
+  border-top: -24px solid transparent;
+  border-left: 230px solid rgb(185, 70, 70); /* Tam giác trái được đổ màu */
+}
+.symbol-restaurant {
+  margin-left: -20rem;
+  margin-top: 4rem;
+  height: 148px !important;
+  width: auto;
+}
+
+#header .header-general .text-left-homeScreen {
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 80px;
+  margin-top: -8rem;
+  letter-spacing: 4px;
+  text-align: justify;
+  padding-left: 20%;
+  display: block;
+}
+#header .header-general .text-left-homeScreen .second-text {
+  color: aquamarine;
+  /* background: linear-gradient(40deg, #2096ff, #05ffa3) !important; */
+}
+#header .header-general .text-left-homeScreen .check-text {
+  /* display: block; */
+
+  position: relative;
+}
+
+#header .header-general .text-left-homeScreen-bottom {
+  color: aliceblue;
+  font-size: 24px;
+  text-align: justify;
+  padding-left: 20%;
+}
+
+/* #header .header-general .text-left-homeScreen p {
+  -webkit-text-stroke: 0.1vw #1288e9;
+}
+#header .header-general .text-left-homeScreen p::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100%;
+  height: 100%;
+  color: #1288e9;
+  -webkit-text-stroke: 0.1vw #1288e9;
+  border-right: 2px solid #1288e9;
+} */
+
+#header .header-general img {
+  height: 48px;
+  width: auto;
+}
+
+.icon-common i {
+  border: 1px solid #fff;
+  order: 1px solid #000;
+  line-height: 46px;
+  margin-left: 1rem;
+  padding-left: 3rem;
+}
+.icon-common i:hover {
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.icon-common .fa-facebook:hover {
+  background: #194ad6;
+  border: none;
+  opacity: 0.8;
+}
+.icon-common .fa-twitter:hover {
+  background: #1da1f2;
+  border: none;
+  opacity: 0.8;
+}
+.icon-common .fa-google:hover {
+  background: #ee9e0b;
+  border: none;
+  opacity: 0.8;
+}
+
+#header .header-right .btn-direction {
+  width: 40px;
+  text-align: center;
+  /* margin-top: 40%; */
+  /* background-color: bisque; */
+}
+
+#header .header-right .btn-direction .btn-down {
+  margin-bottom: 2rem;
+  /* background-color: rgb(243, 232, 218); */
+  float: left;
+}
+
+#header .header-general .img-dish-header {
+  height: 300px;
+  margin-top: 84px;
+  margin-left: 100px;
+  margin-bottom: -67px;
+  width: 70%;
+  border-radius: 2rem;
+}
+#header .header-general .img-dish-header:hover {
+  margin-right: -10px;
+  opacity: 0.8;
+  transform: scale3d(1.1, 1.1, 1.5);
+}
+
+#header .header-right .bottom-header-right {
+  float: left;
+  padding-top: 10rem;
+  width: 33%;
+  text-align: justify;
+  color: aliceblue;
+  font-weight: 500;
+  letter-spacing: 1.2;
+  padding-right: 5rem;
+  font-size: 20px;
+  margin-left: 25px;
+  margin-top: -45px;
+}
+
+#header .header-right .bottom-header-right2 {
+  float: left;
+  width: 53%;
+}
+#header .header-right .bottom-header-right2 img {
+  width: 60%;
+  height: 320px;
+  margin-left: 3rem;
+  border-radius: 2rem;
+}
+#header .header-right .bottom-header-right2 img:hover {
+  margin-right: -10px;
+  opacity: 0.8;
+  transform: scale3d(1.1, 1.1, 1.5);
+}
+
+.btn-bottom {
+  margin-top: 8.5rem;
+  background-color: #ffffff00;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 0;
+  border: 1px solid;
+}
+.btn-bottom:hover {
+  border: 0.1rem #fff solid;
+  background-color: rgb(226, 163, 61);
+}
+
+/* .icon-common .icon-center::before {
+  margin-right: -4rem;
+} */
+/* test */
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+body {
+  background-color: #111;
+}
+
+.title {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  letter-spacing: 1px;
+}
+
+h1 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 0.75;
+  margin: 10px 0;
+  font-weight: 500;
+}
+/* styling my button */
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: #fff;
+  color: #122;
+}
+.content-home {
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  float: left;
+}
+.describe-home .session1 {
+  width: 33.3333%;
+  background-color: #111;
+  height: 300px;
+  float: left;
+  background-position: center;
+}
+.session1 > img,
+.session3 > img {
+  width: 100%;
+  height: 100%;
+}
+.background-dish {
+  position: relative;
+}
+.content-dish-special-left {
+  z-index: 1;
+  position: absolute;
+  top: 1000px;
+  left: 8%;
+  text-align: center;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.content-dish-special-right {
+  z-index: 1;
+  position: absolute;
+  top: 1000px;
+  left: 75%;
+  text-align: center;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.content-dish {
+  color: #fff;
+}
+.describe-home .session2 {
+  width: 33.3333%;
+  background-color: #e26e6e;
+  height: 300px;
+  float: left;
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-size: 26px;
+}
+.session2 .content-session2 {
+  margin-top: 19%;
+}
+.describe-home .session3 {
+  width: 33.3333%;
+  background-color: #ee9e0b;
+  height: 300px;
+  float: left;
+}
+
+/* test */
+.tracking-in-expand-fwd {
+  -webkit-animation: tracking-in-expand-fwd 0.8s
+    cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+}
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+/* .slide-out-blurred-top {
+  -webkit-animation: slide-out-blurred-top 0.45s
+    cubic-bezier(0.755, 0.05, 0.855, 0.06) both;
+  animation: slide-out-blurred-top 0.45s cubic-bezier(0.755, 0.05, 0.855, 0.06)
+    both;
+} */
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* services of us */
+.services .top-services {
+  font-family: "Courier New", Courier, monospace;
+  word-spacing: 2px;
+  text-align: center;
+  font-size: 46px;
+  /* font-weight: 600; */
+  color: yellowgreen;
+}
+.img-content-left {
+  width: 50%;
+  height: 50%;
+  padding: 2rem;
+  border-radius: 4rem;
+}
+.content-sample-food {
+  background-image: url("https://luhanhvietnam.com.vn/du-lich/vnt_upload/news/12_2020/thit-trau-la-trong-quang-tri-xao.jpg");
+}
+.content-left-services {
+  width: 800px;
+  margin-left: 16rem;
+}
+.content-right-services {
+  margin-right: 200px;
+}
+.video-edit {
+  width: 700px !important;
+  height: 512px !important;
+}
+
+/* Book service */
+
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+.reserve-book {
+  background-image: url("https://t3.ftcdn.net/jpg/02/12/60/46/360_F_212604601_ZK02M0XFc8arlw9SangYYZ6iOh57pbsF.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+  height: 500px;
+}
+.calendar-book {
+  float: left;
+  background: linear-gradient(40deg, rgb(175, 237, 243), rgb(144, 255, 129));
+}
+.number-of-people {
+  width: 39%;
+  text-align: center;
+  margin-top: 12rem;
+  margin-left: 3rem;
+}
+.content-book {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: monospace;
+}
+.content-right-book {
+  text-align: center;
+}
+.content-right-book .book-btn {
+   /* float: left; */
+  width: 356px;
+  height: 260px;
+  /* background-color: #e84c3d;
+  color: white; */
+  background: transparent;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  line-height: 54px; 
+  position: absolute;
+  top : 100px;
+  left: 770px;
+  border-radius:20% ;
+  background-image: url(../scss/images/gif15.gif);
+}
+.content-right-book .book-btn:hover {
+  /* background-color: #d83c2d; */
+}
+.content-comment {
+  color: white;
+  font-size: 36px;
+}
+
+/* SPECIAL - FOOD*/
+.special-food {
+  text-align: center;
+  color: yellowgreen;
+  font-size: 30px;
+  margin-bottom: 80px;
+}
+.menu-list {
+  width: 100px;
+  height: 100px;
+}
+.special-left {
+  /* float: left; */
+}
+.special-left > img {
+  width: 110px;
+  float: left;
+}
+
+.content-special {
+  float: left;
+  text-align: initial;
+  margin-right: 20%;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.menu-header {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 46px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+.content-special-left {
+  float: left;
+  font-size: 20px;
+}
+.status-special {
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(40deg, rgb(248, 130, 101), rgb(255, 99, 59));
+  font-weight: 500;  
+}
+
+.menu-content {
+  font-size: 20px;
+}
+
+/* contact us */
+
+.contact-us {
+  height: 700px;
+  margin-bottom: 100px;
+  background-image: url("https://qnutrapharma.com/wp-content/uploads/2019/05/7-key-flavours-used-in-asian-desserts.jpg");
+}
+.contact-us .contact-input-left > button {
+  width: 75%;
+  color: white;
+  border: none;
+  background-color: #e84c3d;
+  margin-top: 30px;
+}
+
+.contact-us .contact-input-left > button:hover {
+  background-color: #d83c2d;
+}
+
+.img-contact1 > img {
+  width: 800px;
+  height: 300px;
+  margin: 10px;
+}
+
+.img-contact2 > img {
+  width: 400px;
+  height: 280px;
+  margin: 5px;
+
+  border: solid white 15px;
+  border-bottom: 3em solid #fff;
+  border-radius: 0.25em;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
+  margin: 2em 3em;
+  opacity: 0;
+  transform: translateY(4em) rotateZ(-5deg);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.5, 1),
+    opacity 0.3s 0.25s ease-out;
+  max-width: 300px;
+  width: 90%;
+  will-change: transform, opacity;
+}
+.img-contact2 .img-beauty1.is-visible {
+  opacity: 1;
+  transform: rotateZ(-2deg);
+}
+.head-contact {
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+.contact-input-left {
+  text-align: center;
+  margin-top: -60px;
+}
+.input-contact {
+  width: 700px;
+  margin-bottom: 30px;
+}
+.input-contact:hover {
+}
+
+/* IMG / picture */
+
+#container-img {
+  perspective: 40px;
+}
+
+#container-img:hover {
+  cursor: pointer;
+}
+
+#inner_img {
+  transiiton: transform 0.5;
+  -webkit-transition: transform 0.5s;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+}
+.demo-overplay {
+  /* width: 25em;
+  padding: 10em 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.4s; */
+}
+.demo-overplay .img-beauty {
+  border: solid white 15px;
+  border-bottom: 5em solid #fff;
+  border-radius: 0.25em;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
+  margin: 2em auto;
+  opacity: 0;
+  transform: translateY(4em) rotateZ(-5deg);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
+    opacity 0.3s 0.25s ease-out;
+  max-width: 600px;
+  width: 90%;
+  will-change: transform, opacity;
+}
+
+.demo-overplay .img-beauty.is-visible {
+  opacity: 1;
+  transform: rotateZ(-2deg);
+}
+.demo-overplay .inline-photo {
+}
+
+.img-cover {
+  text-align: center;
+  padding-top: 40px;
+}
+
+@media only screen and (max-width: 1440px) {
+  
+  .img-responsive {
+    position: absolute;
+    right: -100px;
+  }
+  .responsive-1200 {
+    width: 36% !important;
+  }
+  .img-contact2 > img {
+    float: left;
+    width: 30%;
+    /* width: 400px; */
+    height: 40%;
+    margin: 5px;
+  
+    border: solid white 15px;
+    border-bottom: 3em solid #fff;
+    border-radius: 0.25em;
+    box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
+    margin: 2em 3em;
+    opacity: 0;
+    transform: translateY(4em) rotateZ(-5deg);
+    transition: transform 4s 0.25s cubic-bezier(0, 1, 0.5, 1),
+      opacity 0.3s 0.25s ease-out;
+    max-width: 300px;
+    width: 90%;
+    will-change: transform, opacity;
+  }
+  #header .header-general .img-dish-header {
+    height: 200px;
+    margin-top: 84px;
+    margin-left: 100px;
+    margin-bottom: -67px;
+    width: 50%;
+    border-radius: 2rem;
+    margin-right: 120px;
+  }
+  .style-reponsive  {
+    width: 360px !important;
+  }
+  .content-left-services {
+    width: 800px !important;
+    margin-left: 0 !important;
+  }
+  .content-left-services > img{
+    /* margin: 50px !important; */
+  }
+  .content-right-services {
+    margin-right: 200px;
+  }
+  .video-edit {
+    width: 700px !important;
+    height: 512px !important;
+  }
+  .img-responsive-special {
+    /* margin-top: 0% !important; */
+
+  }
+  .content-right-book .book-btn {
+    width: 300px;
+  height: 260px;
+  /* background-color: #e84c3d;
+  color: white; */
+  background: transparent;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  line-height: 54px; 
+  position: absolute;
+  top : 100px;
+  left: 538px;
+  border-radius:20% ;
+  background-image: url(../scss/images/gif15.gif);
+  }
+.contact-input-left {
+
+  margin-top: -3% !important;
+}
+.img-contact2 > img {
+  width: 250px !important;
+  height: 280px;
+  margin: 5px;
+
+  border: solid white 15px;
+  border-bottom: 3em solid #fff;
+  border-radius: 0.25em;
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
+  margin: 2em 3em;
+  opacity: 0;
+  transform: translateY(4em) rotateZ(-5deg);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.5, 1),
+    opacity 0.3s 0.25s ease-out;
+  max-width: 300px;
+  width: 90%;
+  will-change: transform, opacity;
+}
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .content-book {
+    font-size: 48px;
+  }
+  .content-comment{
+    text-align: center;
+  }
+  .lineHeight-responsive{
+    line-height: 60px !important;
+  }
+  header a {
+    /* padding : 2rem; */
+    font-size: 20px;
+  }
+  a.brand {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .img-contact2 >img {
+    width: 210px !important;
+  }
+  #header .header-general .text-left-homeScreen  {
+    font-size: 60px;
+  }
+  .responsive-1200 {
+    width: 40% !important;
+    display: block;
+  }
+  .content-left-services {
+   
+  }
+  .content-right-services{
+    margin-right: 50px;
+  }
+  .img-responsive-special{
+    margin-top: 10%;
+  }
+  .menus-card{
+    width: 110% !important;
+  }
+  .body-search-responsive {
+    width: 100% !important;
+  }
+  .menus-card{
+    position: inherit !important;
+    margin-left: -8%;
+
+  }
+  .card-responsive {
+    width: 30% !important;
+  }
+  .table-tab{
+    position: inherit;
+  }
+}

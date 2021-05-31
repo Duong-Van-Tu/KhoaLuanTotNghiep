@@ -1,0 +1,228 @@
+//mixins
+@mixin align {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+//presentation
+.container {
+  position: relative;
+  .page-title,
+  .page-sub-title {
+    color: white;
+    text-align: center;
+  }
+  .page-title {
+    margin: 30px 0 5px;
+    font-size: 30px;
+  }
+  .page-sub-title {
+    font-weight: 100;
+    margin: 0 0 30px 0;
+    font-size: 23px;
+  }
+}
+
+//variables
+$pink: #de6262;
+$dark: #333741;
+$peach: #ffb88c;
+$green: #52c234;
+
+// html {
+//   background: linear-gradient(45deg, $pink 10%, $peach 90%);
+//   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+//     Helvetica, Arial, "Lucida Grande", sans-serif;
+//   height: 100vh;
+// }
+
+.image-about-us {
+  display: block;
+  width: 100%;
+  height: 500px;
+}
+
+.card-container-about-us {
+  perspective: 1000;
+  margin: 0 auto 50px;
+  width: 400px;
+}
+.form-about-us {
+  background: url("../scss/images/background-10.jpg");
+}
+.member-about-us {
+}
+.content-about-us {
+  font-size: 20px;
+  color: #fff;
+  width: 1000px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: justify;
+}
+.front-about-us,
+.back-about-us {
+  backface-visibility: hidden;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  box-sizing: border-box;
+  transition-delay: 0.15s;
+  transition: 0;
+}
+
+.front-about-us {
+  transform: rotateY(0deg);
+}
+
+.back-about-us {
+  transform: rotateY(180deg);
+  opacity: 0;
+  padding-top: 60px;
+  backface-visibility: visible;
+  background: $dark;
+  color: white;
+}
+
+.card-about-us {
+  position: relative;
+  width: 500px;
+  height: 450px;
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 40px 110px rgba(0, 0, 0, 0.45);
+  overflow: hidden;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  box-shadow: 1px 10px 40px #fac96d;
+  &:hover {
+    text-align: center;
+    line-height: 80px;
+    transform: rotateY(180deg);
+    .front-about-us {
+      opacity: 0;
+    }
+    .back-about-us {
+      opacity: 1;
+    }
+  }
+}
+
+.sub-title-about-us {
+  color: $pink;
+  animation: slide-in 0.75s;
+  animation: slide-in 0.75s cubic-bezier(0.625, 0.075, 0.11, 1.165);
+  animation-timing-function: cubic-bezier(0.625, 0.075, 0.11, 1.165);
+  font-size: 18px;
+  font-weight: 200;
+  margin: 0 0 5px 0;
+}
+
+.title-about-us {
+  color: $dark;
+  animation: slide-in-slow 0.75s;
+  animation: slide-in-slow 0.75s cubic-bezier(0.625, 0.075, 0.11, 1.165);
+  animation-timing-function: cubic-bezier(0.625, 0.075, 0.11, 1.165);
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.synopsis-about-us {
+  color: $pink;
+  font-size: 27px;
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+
+.p-about-us {
+  color: rgba(white, 0.85);
+  font-size: 19px;
+  line-height: 1.5;
+  margin: 0 0 35px;
+}
+
+.btn-about-us {
+  width: 240px;
+  border: 1px solid $peach;
+  border-radius: 5px;
+  background: transparent;
+  display: inline-block;
+  font-size: 17px;
+  padding: 8px 20px 9px 15px;
+  color: $peach;
+  transition: 0.5s;
+  margin: 0 2px 0;
+  font-weight: 100;
+  &.secondary-about-us {
+    border-color: $pink;
+    color: $pink;
+    &:hover {
+      background: $pink;
+    }
+  }
+  &:hover {
+    cursor: pointer;
+    background: $peach;
+    color: white;
+  }
+  i {
+    margin: 0 5px 0;
+  }
+}
+
+.image-about-us {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  animation: slide-in-right 1.25s;
+  animation: slide-in-right 1.25s cubic-bezier(0.625, 0.075, 0.11, 1.165);
+  animation-timing-function: cubic-bezier(0.625, 0.075, 0.11, 1.165);
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+}
+
+//animation
+@keyframes slide-in {
+  0% {
+    transform: translate3d(-300px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-in-slow {
+  0% {
+    transform: translate3d(-300px, 0, 0);
+  }
+  20% {
+    transform: translate3d(-300px, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translate3d(400px, 0, 0);
+  }
+  30% {
+    transform: translate3d(400px, 0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}

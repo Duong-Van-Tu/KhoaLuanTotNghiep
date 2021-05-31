@@ -1,0 +1,28 @@
+.background-create-product {
+    background-image: url(./images/gif2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-create-product {
+    width: 1000px;
+    margin-top: -2rem;
+  
+    height: auto;
+    max-width: 90rem !important;
+    box-shadow: 1px 20px 30px rgb(95, 94, 94);
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+  .input-create {
+    width: 800px;
+    /* margin-bottom: -2rem; */
+  }
+  .input-create:last-child {
+    margin-bottom: 8rem;
+  }
+  

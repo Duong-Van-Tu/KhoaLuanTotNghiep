@@ -1,0 +1,244 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* header book service */
+.content-header-book {
+  color: rgb(240, 140, 9);
+  width: 100%;
+  height: 500px;
+  background-image: url("https://www.exoticvoyages.com/uploads/images/userfiles/2020/07/17/dessert_sweet_sticky_rice_with_coconut_milk_in_plate_on_wood_pattern_background.jpg"); /* background-color: aquamarine; */
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  list-style: decimal;
+  font-size: 100px;
+  font-weight: 500;
+}
+.content-header-book > p {
+  position: relative;
+  top: 240px;
+}
+.content-header-book .image-book-1 {
+  width: 300px;
+  float: right;
+  border-radius: 50%;
+}
+.content-header-book .image-book-2 {
+  width: 300px;
+  float: left;
+  border-radius: 50%;
+}
+.content-header-book .image-book-3 {
+  width: 330px;
+  float: center;
+  margin-top: 0px;
+  border-radius: 80% 120% 120%;
+}
+/* Body book service */
+.body-book {
+  height: auto;
+  margin-bottom: 100px;
+
+  /* background-color: brown; */
+}
+.mid-content-book .browser-book {
+  transition: 1.1s 0.4s ease-in-out;
+}
+.mid-content-book .detail-book-step2 {
+  position: absolute;
+  top: 550px;
+  transition: 1.1s 0.4s ease-in-out;
+}
+.mid-content-book .confirm-book-step3 {
+  position: absolute;
+  top: 550px;
+  transition: 1.1s 0.4s ease-in-out;
+}
+.body-book .mid-content-book .bg-left-book {
+  background-image: url("https://i.pinimg.com/564x/4c/59/44/4c59445c71e350288a431e514e065ac4.jpg");
+  width: 800px;
+  height: 450px;
+  text-align: center;
+  background-position-x: center;
+  margin-left: auto;
+  margin-right: -70px;
+}
+.body-book .mid-content-book .bg-right-book {
+  /* background-image: url("https://i.pinimg.com/564x/4c/59/44/4c59445c71e350288a431e514e065ac4.jpg"); */
+  width: 800px;
+  height: 450px;
+  text-align: center;
+  background-position-x: center;
+  margin: auto;
+  text-align: justify;
+}
+.body-book .mid-content-book .step-book {
+  margin-bottom: 5rem;
+}
+.img-number {
+  width: 30px;
+}
+.body-book .mid-content-book .step-book .calendar-book-service {
+  height: 450px;
+  max-width: 700px !important;
+}
+
+.body-book .mid-content-book .time-book {
+  height: 200px;
+  text-align: center;
+  margin-top: 60px;
+  /* background-color: brown; */
+}
+.body-book .mid-content-book .clock-book-service {
+  margin-bottom: 60px;
+}
+
+.body-book .mid-content-book .form-detail {
+  height: 450px;
+}
+.get_in_touch .title {
+  text-transform: uppercase;
+}
+
+.body-book .mid-content-book .clock-book {
+  background-color: rgb(55, 163, 51);
+  margin-left: 1rem;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  padding: 16px;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+.body-book .mid-content-book .btn-book {
+  background-color: rgb(28, 159, 199);
+  margin-left: 1rem;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  padding: 16px;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+.body-book .mid-content-book .clock-book:hover {
+  background-color: rgb(84, 199, 55);
+}
+
+.body-book .mid-content-book .btn-book:hover {
+  background-color: rgb(2, 191, 248);
+}
+
+.body-book .mid-content-book .statistics-book {
+  height: 300px;
+  opacity: 0.8;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190222/ourmid/pngtree-crayfish-food-food-condiment-black-horizontal-banner-goodsseasoningblackhorizontal-bannerdelicious-image_50376.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body-book .mid-content-book .statistics-book .statistics-restaurant {
+  width: 25%;
+  float: left;
+  text-align: center;
+
+  color: white;
+  font-size: 30px;
+}
+.body-book
+  .mid-content-book
+  .statistics-book
+  .statistics-restaurant
+  .number-book {
+  font-size: 120px;
+  margin-top: 3rem;
+  color: yellowgreen;
+}
+.body-book
+  .mid-content-book
+  .statistics-book
+  .statistics-restaurant:first-child {
+  position: relative;
+  right: 0px;
+}
+.body-book .mid-content-book.specialities {
+  height: 400px;
+  background-color: blue;
+}
+
+.step-book .detail-book {
+  transform: translateX(2000px);
+}
+
+/* ANIMATION */
+
+.step-container-book.book-detail-mode::before {
+  transform: translate(100%, -50%);
+  right: 52%;
+}
+
+.step-container-book.book-detail-mode .browser-book {
+  transform: translateX(-800px);
+}
+.step-container-book.book-detail-mode .browser-book {
+  pointer-events: none;
+}
+.step-container-book.book-detail-mode .detail-book-step2 {
+  pointer-events: all;
+}
+
+.step-container-book.book-detail-mode .detail-book-step2 {
+  transform: translateX(0%);
+}
+
+.step-container-book.book-detail-mode .step-container-book {
+  left: 25%;
+}
+
+.step-container-book.book-detail-mode .browser-book {
+  z-index: 1;
+  opacity: 0;
+}
+
+.step-container-book.book-detail-mode .detail-book-step2 {
+  z-index: 2;
+  opacity: 1;
+}
+
+/* animation step3 */
+.step-container-book.book-confirm-mode::before {
+  transform: translate(100%, -50%);
+  right: 52%;
+}
+
+.step-container-book.book-confirm-mode .detail-book-step2 {
+  transform: translateX(-800px);
+}
+.step-container-book.book-confirm-mode .detail-book-step2 {
+  pointer-events: none;
+}
+.step-container-book.book-confirm-mode .confirm-book-step3 {
+  pointer-events: all;
+}
+
+.step-container-book.book-confirm-mode .confirm-book-step3 {
+  transform: translateX(0%);
+}
+
+.step-container-book.book-confirm-mode .step-container-book {
+  left: 25%;
+}
+
+.step-container-book.book-confirm-mode .detail-book-step2 {
+  z-index: 1;
+  opacity: 0;
+}
+
+.step-container-book.book-confirm-mode .confirm-book-step3 {
+  z-index: 2;
+  opacity: 1;
+}
+

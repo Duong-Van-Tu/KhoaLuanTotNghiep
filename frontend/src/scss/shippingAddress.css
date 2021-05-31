@@ -1,0 +1,22 @@
+.form-shipping {
+  width: 1400px;
+  margin-bottom: 7rem;
+  font-size: 16px;
+  height: 700px;
+  margin-top: 1rem;
+  border-radius: 10px;
+  /* background-image: url(./images/restaurant3.jpg); */
+  background-image: url("./images/background_svg.gif");
+
+  box-shadow: 1px 20px 30px rgb(124, 123, 123);
+  opacity: 0.8;
+}
+.form-shipping > div {
+  width: 560px;
+  margin: 0;
+
+  /* margin-bottom: 5rem; */
+}
+.message{
+  color: rgb(250, 83, 83)
+}

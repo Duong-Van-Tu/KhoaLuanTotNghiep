@@ -1,0 +1,13 @@
+.form-payment-method {
+  width: 900px;
+  font-size: 16px;
+  margin-bottom: 8rem;
+  margin-top: 8rem;
+  border-radius: 10px;
+  height: 500px;
+  background-image: url("./images/background_svg1.gif");
+  box-shadow: 1px 20px 30px rgb(153, 163, 165);
+}
+.form-payment-method > div {
+  width: 550px;
+}

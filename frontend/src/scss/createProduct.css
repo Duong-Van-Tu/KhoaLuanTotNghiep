@@ -1,0 +1,46 @@
+.create-product > h1 {
+  text-align: center;
+}
+
+.table-create-product {
+  font-size: 16px !important;
+}
+
+.btn-function {
+  text-align: center;
+  font-size: 16px;
+  width: 400px !important;
+  background: linear-gradient(40deg, rgb(158, 250, 149), rgb(121, 250, 62));
+  position: absolute;
+  right: 30px;
+}
+.btn-function:hover {
+  background: linear-gradient(40deg, rgb(112, 241, 100), rgb(84, 218, 67));
+  transition: 0.3;
+}
+
+.btn-edit {
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  font-size: 16px;
+  background: linear-gradient(40deg, rgb(241, 168, 72), rgb(247, 231, 87));
+}
+.btn-edit:hover {
+  background: linear-gradient(80deg, rgb(245, 123, 9), rgb(245, 203, 17));
+}
+
+.btn-detail {
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+  font-size: 16px;
+  background: linear-gradient(40deg, rgb(49, 132, 255), rgb(76, 182, 253));
+}
+
+.btn-detail:hover {
+  background: linear-gradient(40deg, rgb(15, 108, 248), rgb(18, 156, 248));
+  outline: none;
+  border: none;
+}

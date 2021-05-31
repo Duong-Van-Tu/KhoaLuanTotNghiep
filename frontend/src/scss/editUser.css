@@ -1,0 +1,8 @@
+.form-edit-user {
+  width: 1400px;
+  height: 600px;
+  box-shadow: 1px 20px 30px #aaa;
+  font-size: 16px;
+  /* background: linear-gradient(30deg, rgb(187, 251, 145), rgb(100, 238, 243)); */
+  background-image: url(../scss/images/gif4.gif);
+}

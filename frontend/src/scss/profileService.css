@@ -1,0 +1,50 @@
+.form-card {
+  box-shadow: 1px 13px 22px #333;
+  margin-top: 30rem;
+  height: 780px;
+  margin-bottom: 5rem;
+}
+
+.decoration-card {
+  margin: 0em 0rem !important ;
+  box-shadow: 1px 13px 22px rgb(127, 250, 158);
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 600px;
+  /* height: 42%; */
+  background: linear-gradient(30deg, rgb(112, 231, 247), rgb(138, 224, 87));
+  margin-left: 0rem !important;
+  border-radius: 0% 0% 12% 12%;
+}
+.card-replace {
+  position: absolute;
+  margin-bottom: 20% !important;
+  top: 12%;
+}
+.img-user > img {
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.update-profile-btn {
+  background: linear-gradient(30deg, rgb(78, 207, 95), rgb(20, 170, 216));
+  color: azure;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.update-profile-btn:hover {
+  opacity: 0.7;
+  transition: ease-in 0.2s;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-replace {
+    position: inherit !important;
+    margin-bottom: 20% !important;
+    top: 12%; 
+  }
+}
