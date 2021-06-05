@@ -141,7 +141,7 @@ bookingRouter.put(
         .messages()
         .send(
           {
-            from: 'Restaurant <restaurant@mg.yourdomain.com>',
+            from: '17049351duongvantu@gmail.com',
             to: `${booking.user.name} <${booking.user.email}>`,
             subject: `New booking ${booking._id}`,
             html: payBookingEmailTemplate(booking),

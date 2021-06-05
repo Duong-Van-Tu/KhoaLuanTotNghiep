@@ -109,7 +109,7 @@ export const payBookingEmailTemplate = (booking) => {
   <td align="right">${booking.paymentMethod}</td>
   </tr>
   </table>
-  <h2>Booking Table</h2>
+  <h2>ĐẶT BÀN</h2>
   <p>
   ${booking.bookingTable.fullName},<br/>
   ${booking.bookingTable.phoneNumber},<br/>
