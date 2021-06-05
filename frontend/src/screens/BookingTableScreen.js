@@ -85,10 +85,10 @@ const checkHour = (hour) =>{
       <CheckoutSteps step1 step2></CheckoutSteps>
       <form className="form form-shipping" onSubmit={submitHandler}>
         <div>
-          <h1>Booking Table</h1>
+          <h1 className="" style={{textAlign:'center'}}>ĐẶT BÀN</h1>
         </div>
         <div>
-          <label htmlFor="fullName">Full Name</label>
+          <label htmlFor="fullName">Họ tên</label>
           <input
             type="text"
             id="fullName"
@@ -100,11 +100,11 @@ const checkHour = (hour) =>{
         </div>
         {!checkName(fullName) && <MessageBox variant="danger">
           <div className = 'message'>
-            For example: Duong Van Tu. Name starting with a capital letter and up to four letters
+            Ví dụ: Duong Van Tu. Phải viết hoa chữ cái đầu mỗi ký tự, ký từ đầu 4 chữ cái
           </div>
           </MessageBox>}
         <div>
-          <label htmlFor="phoneNumber">Phone Number</label>
+          <label htmlFor="phoneNumber">SĐT</label>
           <input
             type="text"
             id="phoneNumber"
@@ -114,9 +114,9 @@ const checkHour = (hour) =>{
             required
           ></input>
         </div>
-        {!checkPhoneNumber(phoneNumber) && <MessageBox variant="danger"> For example: 0868060635. Up to 11 numbers</MessageBox>}
+        {!checkPhoneNumber(phoneNumber) && <MessageBox variant="danger"> Ví dụ: 0868060635. phải 11 chữ số</MessageBox>}
         <div>
-          <label htmlFor="date">Date</label>
+          <label htmlFor="date">Ngày</label>
           <input
             type="date"
             id="date"
@@ -126,9 +126,9 @@ const checkHour = (hour) =>{
             required
           ></input>
         </div>
-        {!checkDay(date) &&<MessageBox variant="danger">current date month year or later</MessageBox>}
+        {!checkDay(date) &&<MessageBox variant="danger">Là ngày hiện tại hoặc trễ hơn</MessageBox>}
         <div>
-          <label htmlFor="hour">hour</label>
+          <label htmlFor="hour">Giờ</label>
           <select
             value={hour}
             onChange={(e) => setHour(e.target.value)}
@@ -142,11 +142,14 @@ const checkHour = (hour) =>{
             <option value="17 PM">17PM</option>
             <option value="18 PM">18PM</option>
             <option value="19 PM">19PM</option>
+            <option value="20 PM">20PM</option>
+            <option value="21 PM">21PM</option>
+            <option value="22 PM">22PM</option>
           </select>
         </div>
-        {!checkHour(hour) &&<MessageBox variant="danger">The reservation time must be after or the current time</MessageBox>}
+        {!checkHour(hour) &&<MessageBox variant="danger">Thời gian phải sau thời gian hiện tại</MessageBox>}
         <div>
-          <label htmlFor="numberPlace">Number Place</label>
+          <label htmlFor="numberPlace">Số người</label>
           <select
             value={numberPlace}
             onChange={(e) => setNumberPlace(e.target.value)}
@@ -160,7 +163,7 @@ const checkHour = (hour) =>{
           </select>
         </div>
         <div>
-        <label htmlFor="description">Description</label>
+        <label htmlFor="description">Mô tả</label>
         <textarea id="description" name="description" rows="4" cols="50"  placeholder="Enter Description"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
@@ -173,7 +176,7 @@ const checkHour = (hour) =>{
           <button className="primary" type="submit" 
           // onClick={!validate(date)}
           >
-            Continue
+            Tiếp tục
           </button>
         </div>
       </form>
